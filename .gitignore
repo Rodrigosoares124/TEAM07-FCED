@@ -1,0 +1,16 @@
+# Dados (ficheiros grandes, descarregar do ICNF - ver README)
+dados/
+*.zip
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
