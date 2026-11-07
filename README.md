@@ -32,3 +32,13 @@ Para correr o script:
 pip install pandas openpyxl
 python verificar_dados.py
 ```
+
+
+## Steps of Statistical Investigation
+
+- [x] Research Question
+- [ ] Collect Data
+- [ ] Explore Data (Project, Plot)
+- [ ] Draw Inferences
+- [ ] Formulate Conclusions
+- [ ] Look Back and Aheads
