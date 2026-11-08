@@ -1,6 +1,5 @@
 # Dados (ficheiros grandes, descarregar do ICNF - ver README)
-dados/
-*.zip
+dados/*.xlsx
 
 # Python / Jupyter
 __pycache__/

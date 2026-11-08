@@ -1,7 +1,7 @@
 # Projeto de Estatística — Team 07
 
 Análise dos registos de incêndios rurais do SGIF (ICNF) para os concelhos de
-**Braga, Guimarães, Guarda e Faro**, entre 2011 e 2025, com foco na causa dos
+**Braga, Guimarães, Guarda e Faro**, entre 2001 e 2025, com foco na causa dos
 incêndios (negligente vs. intencional) antes e depois de 2017.
 
 ## Conteúdo
@@ -10,21 +10,18 @@ incêndios (negligente vs. intencional) antes e depois de 2017.
 |---|---|
 | `verificar_dados.py` | Verificação rápida dos dados: ocorrências por ano, tipos de causa, valores em falta, tempos de intervenção e tabela para o teste |
 | `41-Codificacao-causas.pdf` | Documento do ICNF com a codificação das causas |
-| `dados/` | Dados do SGIF (**não incluídos no repositório**, ver abaixo) |
+| `dados/` | Registos do SGIF 2001–2025 em CSV (incluídos no repositório) |
 
 ## Dados
 
-Os ficheiros de dados são grandes e por isso não estão no repositório.
-Para correr o script:
+Os registos de incêndios do SGIF (ICNF), em CSV, estão na pasta `dados/`:
 
-1. Descarregar do site do ICNF os registos de incêndios do SGIF
-   (Parte 2: 2011–2020 e Parte 3: 2021–2025).
-2. Criar uma pasta `dados/` na raiz do projeto e descompactar lá os ficheiros:
-   ```
-   dados/
-   ├── Registos_Incendios_SGIF_2011_2020.xlsx
-   └── Registos_Incendios_SGIF_2021_2025.xlsx
-   ```
+    dados/
+    ├── Registos_Incendios_SGIF_2001_2010.csv
+    ├── Registos_Incendios_SGIF_2011_2020.csv
+    └── Registos_Incendios_SGIF_2021_2025.csv
+
+Fonte: ICNF – Registos individuais de incêndios 2001 a 2025 (Partes 1, 2 e 3).
 
 ## Como correr
 
