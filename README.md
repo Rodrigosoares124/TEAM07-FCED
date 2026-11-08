@@ -39,3 +39,40 @@ python verificar_dados.py
 - [ ] Draw Inferences
 - [ ] Formulate Conclusions
 - [ ] Look Back and Aheads
+
+
+## Main Research Question
+
+Did the distribution of human-caused fire ignitions (negligence versus intentional actions) and the annual number of fire ignitions change significantly before and after the 2017 wildfire crisis across four Portuguese municipalities with distinct demographic pressures: **Braga**, **Guimarães**, **Guarda**, and **Faro**?
+
+---
+
+## Specific Research Questions
+
+### 1. Proportion Test
+
+**Objective:** Evaluate whether the composition of human-caused fires changed over time.
+
+**Research Question:**
+
+> Did the proportion of intentional fires among human-caused fire ignitions change significantly between the pre-2017 and post-2017 periods in Braga, Guimarães, Guarda, and Faro?
+
+---
+
+### 2. Independent Samples t-Test
+
+**Objective:** Compare fire ignition activity before and after the 2017 wildfire crisis.
+
+**Research Question:**
+
+> Did the mean annual number of fire ignitions differ significantly between the pre-2017 and post-2017 periods in Braga, Guimarães, Guarda, and Faro?
+
+---
+
+### 3. One-Way ANOVA
+
+**Objective:** Compare average fire ignition activity across municipalities.
+
+**Research Question:**
+
+> Did the mean annual number of fire ignitions differ significantly among Braga, Guimarães, Guarda, and Faro over the study period?
